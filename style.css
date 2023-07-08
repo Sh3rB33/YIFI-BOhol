@@ -1,4 +1,13 @@
-     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    /* 
+    Plausible Site Color:
+    light blue: #b8c0bf
+    dark brown: #8b7162
+    light brown: #ce9f6c
+    dark bluegreen: #1f3540
+    slight neonish red: #e66a4f    
+    */
+    
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
     body, html {
       height: 100%;
@@ -9,12 +18,16 @@
     header {
       background-position: center;
       background-size: cover;
-      background-image: url("2.png");
-      /* background-image: url("https://dgma.ph/images/ifi-journal.jpg"); */
+      background-image: url("images/2.png");
       min-height: 100%;
     }
 
-    .nav-bar .w3-button {
+    .nav-bar{
+      padding: 16px;
+      /* background-color: #3db8aa; */
+    }
+
+    .w3-button{
       padding: 16px;
     }
 
